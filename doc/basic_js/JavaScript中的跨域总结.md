@@ -325,7 +325,7 @@ CORS需要浏览器和服务器同时支持。目前，所有浏览器都支持�
 说起来很搞笑，分为两种请求，一种是简单请求，另一种是非简单请求。只要满足下面条件就是简单请求
 
 - 请求方式为HEAD、POST 或者 GET
-- http头信息不超出一下字段：Accept、Accept-Language 、 Content-Language、 Last-Event-ID、 Content-Type(限于三个值：application/x-www-form-urlencoded、multipart/form-data、text/plain)
+- http头信息不超出以下字段：Accept、Accept-Language 、 Content-Language、 Last-Event-ID、 Content-Type(限于三个值：application/x-www-form-urlencoded、multipart/form-data、text/plain)
 
 为什么要分为简单请求和非简单请求，因为浏览器对这两种请求方式的处理方式是不同的。
 
